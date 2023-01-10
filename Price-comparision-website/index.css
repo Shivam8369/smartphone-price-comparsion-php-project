@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#imagelogo{
+
+    height: 130px;
+    width: 190px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0em 0em;
+    display: flex;
+    justify-content: space-between;
+    background: #ff0083;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+#home
+{
+height: 500px;
+width: 1550px;
+margin-top: -35px;
+margin-left: -15px;
+margin-bottom: 8px;
+}
+
+#image2
+{
+    width: 1420px;
+    background-image: blue;
+}
+
+#image3
+{
+    width: 1410px;
+    padding: 1em;
+    background-image: blue;
+}
+#image4
+{
+    width: 1410px;
+    padding: 1em;
+    background-image: blue;
+}
+
+ /* Container needed to position the button. Adjust the width as needed */
+ .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image{
+    display:inline-block;
+    position:relative;
+    }
+    .image a{
+      position: absolute;
+      bottom:2em;
+      left:2em;
+      background-color:#8F0005;
+      border-radius:1.5em;
+      color:white;
+      text-transform:uppercase;
+      padding:0.1em 1.5em;
+      }

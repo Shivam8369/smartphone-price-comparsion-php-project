@@ -1,0 +1,104 @@
+<style>
+	
+	#navlist {
+		background-color: #0074D9;
+		position: absolute;
+		width: 100%;
+	}
+    content {
+        color: green;
+        padding-top: 0px;
+        margin: unset;
+      }
+	/* styling navlist anchor element */
+	#navlist a {
+		float:right;
+		display: block;
+		color: #0939ac;
+		text-align: center;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	
+	.navlist-right{
+		float:right;
+	}
+
+	/* hover effect of navlist anchor element */
+	#navlist a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+		
+	/* styling search bar */
+	.search input[type=text]{
+		width:800px;
+		height:27px;
+		border-radius:2px;
+		border: solid;
+        align-items: center;
+	}
+		
+	.search{
+		float:inline-end;
+		margin:7px;
+	}
+		
+	.search button{
+		background-color: #0074D9;
+		color: #f2f2f2;
+		float: right;
+		padding: 5px 10px;
+		margin-right: 96px;
+		font-size: 12px;
+		border: none;
+		cursor: pointer;
+	}
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Style the search field */
+      form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+      }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      /* Clear floats */
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+	  .col-md-7 {
+
+		flex: -moz-available;
+		width:  99.3333333333%;
+		background: rgb(0, 0, 0);
+		position: revert;
+        left: 0px;
+        top: 70px;
+	  }
+</style>

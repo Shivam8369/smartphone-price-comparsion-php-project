@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Classic Login Form Example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <section class="login" id="login">
+      <div class="head">
+        <h1 class="company">Login page</h1>
+      </div>
+      <p class="msg">Welcome...</p>
+      <div class="form">
+        <form action="login_check.php" method="POST">
+          <input
+            type="text"
+            placeholder="Username"
+            class="text"
+            id="username"
+            name = "username"
+            required="required"
+          /><br />
+          <input
+            type="password"
+            placeholder="Enter Password "
+            class="password"
+            name = "password"
+            required="required"
+          /><br />
+            <button type="Login" class="btn btn=primary" name="Login" style="color: black;background: white;width: 80px;height: 30px;font-size: 18px">Login</button>
+          <!-- <a href="search.html" class="btn-login" id="do-login" >Login</a> -->
+          <a href="new-user.html" class="forgot">  New user?</a>
+        </form>
+      </div>
+    </section>
+    <footer></footer>
+    <!-- at the what ever you want to write  -->
+  </body>
+</html>
