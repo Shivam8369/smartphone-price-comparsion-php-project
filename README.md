@@ -1,4 +1,4 @@
-# smartphone-price-comparsion-php-project
+# Smartphone-price-comparsion-php-project
 
 Objective:  This project aims to provide a platform for users to compare smartphone prices from Amazon & Filpkart , helping them make informed purchasing decisions. The project is aligned with technology roles and utilizes a tech stack consisting of HTML, CSS, Python (with relevant libraries), PHP, and PHPMyAdmin.
 
